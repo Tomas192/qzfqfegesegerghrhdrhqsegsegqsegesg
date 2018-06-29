@@ -186,7 +186,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-  if (message.content === 'Привет вам') {
+  if (message.content === 'Всем привет') {
     message.react('👋')
      
 
@@ -207,7 +207,7 @@ client.on('message', message => {
   }
 });
 client.on('message', message => {
-  if (message.content === 'привет вам') {
+  if (message.content === 'всем привет') {
     message.react('👋')
      
 
