@@ -90,7 +90,7 @@ client.on('message', message => {
     if (!message.content.startsWith(prefix)) return;
     var args = message.content.split(' ').slice(1);
     var argresult = args.join(' ');
-    if (message.author.id == 279604584165670923) return;
+    if (message.author.id == 411564557027508235) return;
 
 
   if (message.content.startsWith(prefix + 'play')) {
